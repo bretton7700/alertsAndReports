@@ -110,7 +110,7 @@ COPY ./docker/docker-entrypoint.sh /usr/bin/
 
 WORKDIR /app
 
-USER superset
+USER root
 
 HEALTHCHECK CMD curl -f "http://localhost:$SUPERSET_PORT/health"
 
