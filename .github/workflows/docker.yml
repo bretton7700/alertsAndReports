@@ -38,7 +38,7 @@ jobs:
         with:
           name: build
           path: build/
-      - name: Build docker image and push to repo
+      - name: Build docker image and push 
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
             image: bretton77/sellib
